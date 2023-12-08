@@ -7,7 +7,7 @@ using DAL.Entities;
 
 namespace DAL.Repositories.Interfaces
 {
-    interface INPPRepository : IRepository<NPP>
+    public interface INPPRepository : IRepository<NPP>
     {
     }
 }

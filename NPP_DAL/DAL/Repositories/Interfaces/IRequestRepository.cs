@@ -7,7 +7,7 @@ using DAL.Entities;
 
 namespace DAL.Repositories.Interfaces
 {
-    interface IRequestRepository : IRepository<Request>
+    public interface IRequestRepository : IRepository<Request>
     {
     }
 }
