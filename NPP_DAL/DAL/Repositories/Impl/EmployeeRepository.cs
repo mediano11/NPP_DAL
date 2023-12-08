@@ -10,7 +10,7 @@ using System.Linq;
 namespace DAL.Repositories.Impl
 {
     public class EmployeeRepository
-        : BaseRepository<NPP>, INPPRepository
+        : BaseRepository<Employee>, IEmployeeRepository
     {
 
         internal EmployeeRepository(NPPContext context)

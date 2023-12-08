@@ -10,7 +10,7 @@ using System.Linq;
 namespace DAL.Repositories.Impl
 {
     public class RequestRepository
-        : BaseRepository<NPP>, INPPRepository
+        : BaseRepository<Request>, IRequestRepository
     {
 
         internal RequestRepository(NPPContext context)
