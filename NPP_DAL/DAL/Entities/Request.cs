@@ -15,7 +15,6 @@ namespace DAL.Entities
         public DateTime DurationFrom { get; set; }
         public DateTime DurationTo { get; set; }
         public int EmployeeId { get; set; }
-        public Employee Employee { get; set; }
     }
 
     public enum RequestType

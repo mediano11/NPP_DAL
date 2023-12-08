@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace DAL.Entities
 {
-    class Class1
+    public class NPP
     {
+        public int Id { get; set; }
+        public string Address { get; set; }
+        public string ContactPhone { get; set; }
+
+        public IEnumerable<Employee> Employees { get; set; }
     }
 }
