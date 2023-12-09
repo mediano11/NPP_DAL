@@ -29,7 +29,7 @@ namespace DAL.EF
             }
         }
 
-        public EmployeeRepository Employees
+        public IEmployeeRepository Employees
         {
             get
             {
@@ -39,7 +39,7 @@ namespace DAL.EF
             }
         }
 
-        public RequestRepository Requests
+        public IRequestRepository Requests
         {
             get
             {
